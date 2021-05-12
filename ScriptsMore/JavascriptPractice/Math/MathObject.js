@@ -1,6 +1,3 @@
-let a=2;
-let b=3;
-let z;
-z=a+b;
-z=Math.pi;
+
+var z=Math.PI;
 console.log(z)
