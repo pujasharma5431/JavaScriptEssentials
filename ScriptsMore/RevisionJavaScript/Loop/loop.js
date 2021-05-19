@@ -17,11 +17,11 @@ isDone:true
 ];
 
 
-// For Loop
+// // For Loop
 
 
-for(let i=0; i<todos.length ; i++){
-    console.log(`for loop number is ${i}`);
+for(let i=0; i<todos.length; i++){
+    console.log(todos[i].work);
 }
 
 
@@ -32,3 +32,12 @@ for(let i=0; i<todos.length ; i++){
      console.log(`while Loop continious till ${i}`)
     i++;
  }
+
+
+for(todo of todos){
+    console.log(todo.work)
+    console.log(todo.isDone)
+
+
+
+}
