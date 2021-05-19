@@ -1,15 +1,10 @@
-function myfunction(name)
-{
-    console.log(`Hello!My name is ${name}.How are you?`);
-
+function sum(a,b){
+    return a+b;
 }
-myfunction("Pooja")
+
+console.log(sum(2,3));
 
 
-function namstey(){
-    return "Welcome to Nepal"
-}
-var greetings=namstey()
-console.log(greetings)
+
 
 

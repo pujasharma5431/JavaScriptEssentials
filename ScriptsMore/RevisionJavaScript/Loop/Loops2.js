@@ -18,7 +18,7 @@ isDone:true
 
 
 
-// // Map
+// // // Map
 
 const myTodos=todos.map(function(todo){
 
@@ -42,6 +42,30 @@ const myTask=todos.filter(function(todo){
 
 });
 console.log(myTask)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
