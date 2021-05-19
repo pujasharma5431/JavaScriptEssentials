@@ -37,7 +37,6 @@ for(let i=0; i<todos.length; i++){
 for(todo of todos){
     console.log(todo.work)
     console.log(todo.isDone)
-
-
-
 }
+
+
